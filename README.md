@@ -1,2 +1,2 @@
-# zhaoyingpan.github.io
-Hello I'm Zhaoying Pan! Visit my homepage at https://zhaoyingpan.github.io/
+
+Hello I'm Ying Yang! Visit my homepage at https://yingyangumich.github.io/
