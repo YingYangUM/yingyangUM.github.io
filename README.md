@@ -1,2 +1,2 @@
 
-Hello I'm Ying Yang! Visit my homepage at https://yingyangumich.github.io/
+Hello I'm Ying Yang! Visit my homepage at https://yingyangUM.github.io/
