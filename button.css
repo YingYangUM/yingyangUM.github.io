@@ -22,34 +22,3 @@ button:hover {
     color: #ffffff;
     background-color: #001F3F;
 }
-
-#header {
-  height: 30vh;
-  background: url(https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: cover;
-}
-#nav {
-  background-color: #000;
-  top: 0;
-  width: 100%;
-}
-#nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-#nav li {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#nav ul li a {
-  color: #ffd600;
-  transition: all 0.4s;
-}
-#nav ul li img {
-  height: 96px;
-  transition: height 0.4s;
-}
