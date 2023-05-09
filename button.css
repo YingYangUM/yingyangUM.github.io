@@ -4,8 +4,8 @@ body {
 
 button {
     transition: all .5s ease;
-    color: #fff;
-    border: 3px solid white;
+    color: #001F3F;
+    border: 3px solid black;
     font-family:'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -17,6 +17,6 @@ button {
     border-radius: 4px;
 }
 button:hover {
-    color: #001F3F;
-    background-color: #fff;
+    color: #fff;
+    background-color: #001F3F;
 }
