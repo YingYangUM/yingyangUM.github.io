@@ -2,9 +2,11 @@ ul {
   list-style-type: none;
 }
 
-body {
-  background-color: #E6E6FA;
-}
+/*!
+* body {
+*   background-color: #E6E6FA;
+* }
+*/
 
 /*!
  * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
