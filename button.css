@@ -33,13 +33,7 @@ button:hover {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .menu-1, .menu-5{
-  background: #4A148C;
-}
-.menu-2, .menu-4{
-  background: #6A1B9A;
-}
-.menu-3{
-  background: #7B1FA2;
+  background: #001F3F;
 }
 .menu ul{
   list-style: none;
@@ -82,21 +76,4 @@ button:hover {
 .menu-1 a:hover::before{
   transform-origin: 0 50%;
 }
-.menu-2 a::before{
-  background: #EC407A;
-}
-.menu-3 a::before{
-  transform-origin: 50% 50%;
-  background: #F06292;
-}
-.menu-4 a::before{
-  transform-origin: 100% 50%;
-  background: #EC407A;
-}
-.menu-5 a::before{
-  background: #E91E63;
-  transform-origin: 0 50%;
-}
-.menu-5 a:hover::before{
-  transform-origin: 100% 50%;
-}
+
