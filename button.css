@@ -1,6 +1,7 @@
 body {
     background-color: #111111;
 }
+
 button {
     transition: all .5s ease;
     color: #fff;
