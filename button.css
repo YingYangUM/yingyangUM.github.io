@@ -26,8 +26,6 @@ button:hover {
 
 
 .concept-five {
-	background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/mountains.jpg)
-		center center / cover;
 	display: flex;
 	align-items: center;
 	.word {
