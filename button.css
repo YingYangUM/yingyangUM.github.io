@@ -23,3 +23,34 @@ button:hover {
     color: #ffffff;
     background-color: #001F3F;
 }
+
+
+.concept-five {
+	background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/mountains.jpg)
+		center center / cover;
+	display: flex;
+	align-items: center;
+	.word {
+		width: 600px;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 80%;
+		&:hover {
+			.char:nth-child(even) {
+				top: 20px;
+			}
+			.char:nth-child(odd) {
+				top: -20px;
+			}
+		}
+	}
+	.char {
+		flex: 1;
+		position: relative;
+		display: inline-block;
+		top: 0;
+		transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+}
