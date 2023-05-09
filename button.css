@@ -16,13 +16,12 @@ footer {
 .box {
   transition: box-shadow .3s;
   width: 33%;
-  height: 500px;
+  height: 50pt ;
+  text-align:center;
   margin: 50px;
   border-radius:10px;
   border: 1px solid #ccc;
-  background: #dedede;
-  float: left;
-  
+  background-color: #dedede;
 }
 .box:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
