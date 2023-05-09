@@ -6,6 +6,12 @@ body {
   background-color: ##e8ebed;
 }
 
+footer {
+    text-align:center;
+    padding: 5px;
+    background-color:  #dedede;
+    color: #ffffff;
+}
 
 /*!
  * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
