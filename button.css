@@ -15,12 +15,12 @@ footer {
 
 .box {
   transition: box-shadow .3s;
-  width: 33.33%;
+  width: 33%;
   height: 500px;
   margin: 50px;
   border-radius:10px;
   border: 1px solid #ccc;
-  background: #fff;
+  background: #dedede;
   float: left;
   
 }
