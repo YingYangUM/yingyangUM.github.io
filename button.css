@@ -1,5 +1,5 @@
 body {
-    background-color: #fafbfc;
+    background-color: #ffffff;
 }
 
 button {
@@ -17,6 +17,6 @@ button {
     border-radius: 4px;
 }
 button:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #001F3F;
 }
