@@ -15,8 +15,8 @@ footer {
 
 .box {
   transition: box-shadow .3s;
-  width: 33%;
-  height: 50pt ;
+  width: 250pt
+  height: 250pt ;
   text-align:center;
   margin: 50px;
   border-radius:10px;
