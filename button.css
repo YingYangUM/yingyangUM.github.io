@@ -1,6 +1,5 @@
 body {
     background-color: #111111;
-    background-image: url('http://placekitten.com/1000/1000');
 }
 button {
     transition: all .5s ease;
