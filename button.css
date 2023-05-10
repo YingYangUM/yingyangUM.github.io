@@ -13,6 +13,13 @@ footer {
     color: #ffffff;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .box {
   transition: box-shadow .3s;
   width: 400px;
