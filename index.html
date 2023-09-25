@@ -1,0 +1,472 @@
+
+    <!doctype html>
+    <html lang="en">
+    
+
+    
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href=button.css>
+
+
+    
+  <title>Ying Yang</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/umich.png">
+  
+</head>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJGKRVP7DQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DJGKRVP7DQ');
+    </script>
+
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        }
+    </script>
+    
+<body>
+    
+ 
+
+    
+    <div class="container">
+        
+    <nav class="menu menu-1" id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#publications">Publication</a></li>
+            <li><a href="#themes">Research Themes</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#funfacts">Fun Facts</a></li>
+        </ul>
+    </nav>
+     
+
+ 
+     
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="margin-bottom: 1em;">
+            <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">YING YANG</span>
+            </div>
+            <br>
+            <div class="col-md-8" style="" id = "about">
+                
+                <p>I am a Ph.D. candidate in <a href="https://micde.umich.edu/ph-d-in-scientific-computing/" target="_blank">Scientific Computing</a>, and <a href="https://lsa.umich.edu/mcdb" target="_blank">Molecular, Cellular and Developmental Biology</a> (a joint doctoral program hold by Molecular, Cellular, and Development Biology Department and Michigan Institute for Computational Discovery and Engineering) at the University of Michigan, 
+                    supervised by <a href="https://www.lsi.umich.edu/science/our-labs/daniel-klionsky-lab" target="_blank">Prof. Daniel J. Klionsky</a>. My current research interest focuses on deploying deep learning models and numerical modeling to address real-world challenges, with a particular emphasis on biomedical contexts. I am enthusiastic about tackling these challenges and leveraging AI to revolutionize scientific research.
+                <p> As an addition to my doctoral studies, I obtained my Master of Science degree in in <a href="https://cse.engin.umich.edu/" target="_blank">Computer Science and Engineering</a> from Electrical Engineering and Computer Science department at the Univerisity of Michigan, 
+                    and my Master of Science degree in <a href="https://medicine.umich.edu/dept/computational-medicine-bioinformatics" target="_blank">Bioinformatics</a> from Medical School at the <a href="https://umich.edu" target="_blank">Univerisity of Michigan</a>.
+                    
+                <p>Before Michigan, I received my bachelor's degree in Biological Sciences from <a href="https://en.wikipedia.org/wiki/Fudan_University" target="_blank">Fudan University</a>, Shanghai. 
+                    
+    
+
+    
+                <!-- <p>    <span style="color: red;">I am currently looking for job opportunities of 2023 Fall!</span> --> 
+                
+                </p>
+                <p>
+                   <!-- Email: yingyan@umich.edu-->
+                </p>
+                <p>
+                    <!-- <a href="assets/pdf/CV.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a> -->
+                    <a href="mailto:yingyan@umich.edu" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
+                    <a href="https://scholar.google.com/citations?user=FNja0XEAAAAJ&hl=en&oi=ao" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book fa-lg"></i> Google Scholar</a>
+                    <a href="https://github.com/YingYangUM" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/ying-yang-a2241213a/" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <a href="https://www.instagram.com/yingyang0000/" target="_blank" style="margin-right: 15px"><i class="fa-brands fa-instagram fa-lg"></i> Instagram</a>
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+              
+    
+            </div>
+            <div class="col-md-4" style="">
+                
+                <img id="profile" src="assets/img/profile.jpg"  class="img-thumbnail" width="280px" alt="Cat picture" />
+                <link href='button.css' rel='stylesheet' type='text/css'>
+                <button id="button1" onclick="document.getElementById('button1').style.display='none'; document.getElementById('profile').src='assets/img/cat.jpg'; " style="border: none; margin-top: 5px;">Click and get surprise!</button>
+                <button id="button2" onclick="document.getElementById('button2').style.display='none'; document.getElementById('profile').src='assets/img/cat2.jpg'; " style="border: none; margin-top: 5px;">Click and more surprise!</button>
+                <button id="button4" onclick="document.getElementById('button4').style.display='none'; document.getElementById('profile').src='assets/img/profile.jpg'; " style="border: none; margin-top: 5px;">Click and no surprise!</button>
+
+            </div>
+                
+        </div>
+        
+                    
+            
+
+        <div class="row" style="margin-top: 3em; background-color:fafafa;" id = "education">
+                
+            <div class="col-sm-10" style="">
+                <h4><span style="font-weight: bold;">Education</h4>
+
+                <br>
+
+                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/umich.png" alt="UM" width="110" height="110"></div><div class="col-sm-10">
+                    <b>University of Michigan, Ann Arbor</b><span style="float: right;">2022-2023</span>
+                    <br>Master of Science in <span style="font-style: italic;">Computer Science and Engineering</span>
+                    <br>GPA: 4.0/4.0
+                    <br><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#courses" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -14px; margin-top: -7px;"><span style="color: grey;">Click to check selected courses</span></button>
+                    <div class="collapse" id="courses"><div class="card card-body">
+                        <ul>
+                            <li>EECS 592 Artificial Intelligence Foundations A</li>
+                            <li>EECS 545 Machine Learning A</li>
+                            <li>EECS 586 Design and Analysis of Algorithms A+</li>
+                            <li>EECS 587 Parallel Computing A</li>
+                            <li>EECS 568 Mobile Robotics A</li>
+                            <li>EECS 583 Advanced Compilers </li>
+                            <li>EECS 598 Special Topics: Deep Learning</li>
+                            <li>EECS 598 Special Topics: Artificial General Intelligence</li>
+ 
+                        </ul>
+                    </div></div>
+                    
+                </div> </div> </div>
+                
+                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/umich.png" alt="UM" width="110" height="110"></div><div class="col-sm-10">
+                    <b>University of Michigan, Ann Arbor</b><span style="float: right;">2019-2023</span>
+                    <br>Master of Science in <span style="font-style: italic;">Bioinformatics</span>
+                    <br>GPA: 4.0/4.0
+                    <br><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#courses2" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -14px; margin-top: -7px;"><span style="color: grey;">Click to check selected courses</span></button>
+                    <div class="collapse" id="courses2"><div class="card card-body">
+                        <ul>
+                            <li>BIOINF 527 Introduction to Bioinformatics and Computational Biology A+</li>
+                            <li>MATH 425 Probability A</li>
+                            <li>BIOINF 575 Programming Laboratory in Bioinformatics A+</li>
+                            <li>BIOINF 545 High-throughput Molecular Genomic and Epigenomic Data Analysis A+</li>
+                            <li>BIOSTAT 521 Applied Biostatistics A</li>
+                            <li>BIOINF 580 Introduction to Signal Processing and Machine Learning in Biomedical Sciences </li>
+ 
+                        </ul>
+                    </div></div> 
+                
+                </div> </div> </div>
+                
+                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/umich.png" alt="UM" width="110" height="110"></div><div class="col-sm-10">
+                    <b>University of Michigan, Ann Arbor</b><span style="float: right;">2016-2023</span>
+                    <br>Ph.D.</span> in <span style="font-style: italic;">Molecular, Cellular and Developmental Biology</span>, and <span style="font-style: italic;">Scientific Computing</span>
+                    <br>GPA: 4.0/4.0
+                    <br>Advisor: <a href="https://www.lsi.umich.edu/profiles/daniel-klionsky-phd" target="_blank">Prof. Daniel J. Klionsky </a> 
+                    <br>Research Interest: Autophagy, Cancer Genomics, Machine Learning, <span style="font-style: italic;">etc.</span>
+                </div> </div> </div>
+                
+                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/fudan.jpg" alt="FDU" width="120" height="120"></div><div class="col-sm-10">
+                    <b>Fudan University, Shanghai</b> <span style="float: right;">2012-2016</span>
+                    <br>Bachelor of Science in <span style="font-style: italic;">Biological Sciences</span> 
+                    <br>National Top Talent Undergraduate Fellow
+                    <br>Research Thesis: <span style="font-style: italic;">The novel role of the Golgi protein Otg1 in hormone secretion and glucose homeostasis.</span> (Supported by the Undergraduate Research Opportunity Program)
+                    <br>Advisor: <a href="https://www.researchgate.net/profile/Xiaohui-Wu-10">Prof. Xiaohui Wu</a>, <a href="https://www.colorado.edu/mcdb/min-han" target="_blank">Prof. Min Han</a> and <a href="https://medicine.yale.edu/lab/xu/" target="_blank">Prof. Tian Xu</a>
+                </div> </div> </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 3em;" id = "publications">
+            <div class="col-sm-12" style="">          
+                <h4><span style="font-weight: bold;">Publications</h4> 
+    
+                    <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-12" style="">  
+                         <br> <span style="font-weight: bold";>Total citations: 12262; h-index: 10.</span> 
+
+                        
+                        <br>
+                        
+                    <br> <span style="font-weight: bold";>Citations as first, second and third author: 572.</span> 
+                        
+                        <br>
+                        
+                        <br>Updated on 03/01/2023.
+
+                        <br>
+
+                   <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2023.2187609">A novel role of ATG9A and RB1CC1/FIP200 in mediating cell-death checkpoints to repress TNF cytotoxicity</a>
+
+                    <br> <span style="font-weight: bold";>Ying Yang</span>, Daniel J. Klionsky
+                    <br><span style="font-style: italic;">Autophagy</span>, 2023
+                        <br>
+
+                         <br><a href="https://dl.acm.org/doi/abs/10.1145/3544782">Scheduling Hyperparameters to Improve Generalization: From Centralized SGD to Asynchronous SGD</a>
+                    <br> Jianhui Sun, <span style="font-weight: bold";>Ying Yang</span>, Guangxu Xun, Aidong Zhang
+                    <br><span style="font-style: italic;">ACM Transactions on Knowledge Discovery from Data <span style="font-weight: bold";>(TKDD)</span></span>, 2023
+                     
+<br>                     
+
+                   <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2022.2050663">Follicular lymphoma-associated mutations in the V-ATPase chaperone VMA21 activate autophagy creating a targetable dependency
+</a>
+                    <br> Fangyang Wang, <span style="font-weight: bold";>Ying Yang</span>, Gabriel Boudagh, Eeva-Liisa Eskelinen, Daniel J. Klionsky, Sami N. Malek
+                    <br><span style="font-style: italic;">Autophagy</span>, 2022 
+                        
+                        <br>
+                
+                    <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2022.2071382">Mutations in V-ATPase in follicular lymphoma activate autophagic flux creating a targetable dependency</a>
+                    <br> Fangyang Wang, <span style="font-weight: bold";>Ying Yang</span>, Daniel J. Klionsky, Sami N. Malek
+                    <br><span style="font-style: italic;">Autophagy</span>, 2022 
+                
+                        <br>             
+                    <br><a href="https://www.tandfonline.com/doi/full/10.1080/27694127.2022.2077509">Follicular lymphoma-associated mutations in the V-ATPase chaperone Vma21 activate autophagy by dysfunctional V-ATPase assembly</a>
+                    <br> <span style="font-weight: bold";>Ying Yang</span>, Zhihai Zhang, Daniel J. Klionsky
+                    <br><span style="font-style: italic;">Autophagy Reports</span>, 2022 
+                
+<br>                
+                    <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2022.2059744">Upstream open reading frames mediate autophagy-related protein translation</a>
+                    <br> <span style="font-weight: bold";>Ying Yang</span>, Damián Gatica, Xu Liu, Runliu Wu, Rui Kang, Daolin Tang, Daniel J. Klionsky
+                    <br><span style="font-style: italic;">Autophagy</span>, 2022 
+<br>                
+                   
+                    <br><a href="https://www.pnas.org/doi/abs/10.1073/pnas.2005539118">Downregulation of autophagy by Met30-mediated Atg9 ubiquitination
+</a>
+                    <br> Yuchen Feng, Aileen R Ariosa, <span style="font-weight: bold";>Ying Yang</span>, Zehan Hu, Jörn Dengjel, Daniel J. Klionsky
+
+                    <br><span style="font-style: italic;">Proceedings of the National Academy of Sciences <span style="font-weight: bold";>(PNAS)</span></span>, 2021 
+<br>                
+                        <br><a href="https://www.sciencedirect.com/science/article/pii/S0925443921001952">A perspective on the role of autophagy in cancer
+</a>
+                    <br> Aileen R Ariosa*, Vikramjit Lahiri*, Yuchen Lei*, <span style="font-weight: bold";>Ying Yang</span>*, Zhangyuan Yin*, Zhihai Zhang*, Daniel J. Klionsky (*equal contribution)
+
+
+                    <br><span style="font-style: italic;">Biochimica et Biophysica Acta (BBA)-Molecular Basis of Disease</span>, 2021 
+<br>                
+                        <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2021.1959240">An AMPK-ULK1-PIKFYVE signaling axis for PtdIns5P-dependent autophagy regulation upon glucose starvation</a>
+                    <br> <span style="font-weight: bold";>Ying Yang</span>, Daniel J. Klionsky
+
+                    <br><span style="font-style: italic;">Autophagy</span>, 2021 
+<br>                             
+                        <br><a href="https://dl.acm.org/doi/abs/10.1145/3447548.3467287">A Stagewise Hyperparameter Scheduler to Improve Generalization
+</a>
+                    <br> Jianhui Sun, <span style="font-weight: bold";>Ying Yang</span>, Guangxu Xun, Aidong Zhang
+                    <br><span style="font-style: italic;">Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining <span style="font-weight: bold";>(KDD)</span></span>, 2021 
+<br>                 
+                        
+                        <br><a href="https://www.sciencedirect.com/science/article/pii/S0098299721000261">Moments in autophagy and disease: Past and present
+</a>
+                    <br> Xin Wen*, <span style="font-weight: bold";>Ying Yang</span>*, Daniel J. Klionsky (*equal contribution)
+                    <br><span style="font-style: italic;">Molecular Aspects of Medicine</span>, 2021 
+<br>                 
+                        
+                        <br><a href="https://aacrjournals.org/cancerres/article/81/13_Supplement/1939/667807/Abstract-1939-Follicular-Lymphoma-associated">Follicular Lymphoma-associated mutations in the V-ATPase assembly factor VMA21 activate autophagic flux</a>
+                        <br> Fangyang Wang, <span style="font-weight: bold";>Ying Yang</span>, Gabriel Boudagh, Eeva-Liisa Eskelinen, Daniel J. Klionsky, Sami N. Malek
+                    <br><span style="font-style: italic;">Cancer Research</span>, 2021 
+<br>                
+                        <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2020.1837457">A novel reticulophagy receptor, Epr1: a bridge between the phagophore protein Atg8 and ER transmembrane VAP proteins</a>
+                    <br> <span style="font-weight: bold";>Ying Yang</span>, Daniel J. Klionsky
+                    <br><span style="font-style: italic;">Autophagy</span>, 2021 
+<br>                 
+                        <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2020.1797280">Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)</a>
+                        <br> Daniel J. Klionsky, ..., <span style="font-weight: bold";>Ying Yang</span>, <span style="font-style: italic";>et al.</span>
+                    <br><span style="font-style: italic;">Autophagy</span>, 2021 
+<br>                       
+                        
+                        <br><a href="https://www.pnas.org/doi/abs/10.1073/pnas.2016539117">LRRC8 family proteins within lysosomes regulate cellular osmoregulation and enhance cell survival to multiple physiological stresses</a> 
+                        <br> Ping Li, Meiqin Hu, Ce Wang, Xinghua Feng, ZhuangZhuang Zhao, <span style="font-weight: bold";>Ying Yang</span>, Nirakar Sahoo, Mingxue Gu, Yexin Yang, Shiyu Xiao, Rajan Sah, Timothy L Cover, Janet Chou, Raif Geha, Fernando Benavides, Richard I Hume, Haoxing Xu                    <br><span style="font-style: italic;">Autophagy</span>, 2021 
+                        <br><span style="font-style: italic;">Proceedings of the National Academy of Sciences <span style="font-weight: bold";>(PNAS)</span></span>, 2020 
+                        <br>  
+                  
+                        
+                        <br><a href="https://www.mdpi.com/2073-4409/9/9/2025">The roles of ubiquitin in mediating autophagy</a>                        
+                        <br> Zhangyuan Yin*, Hana Popelka*, Yuchen Lei*, <span style="font-weight: bold";>Ying Yang</span>*, Daniel J. Klionsky (*equal contribution)
+                        <br><span style="font-style: italic;">Cells</span>, 2020 
+                        <br>         
+                        
+                        <br><a href="https://www.nature.com/articles/s41418-019-0480-9">Autophagy and disease: unanswered questions</a>                        
+                        <br> <span style="font-weight: bold";>Ying Yang</span>, Daniel J. Klionsky 
+                        <br><span style="font-style: italic;">Cell Death & Differentiation</span>, 2020 
+                        <br>   
+                        
+                         <br><a href="https://www.tandfonline.com/doi/full/10.1080/15548627.2019.1665293">A novel role of UBQLNs (ubiquilins) in regulating autophagy, MTOR signaling and v-ATPase function</a>                        
+                        <br> <span style="font-weight: bold";>Ying Yang</span>*, Daniel J. Klionsky 
+                        <br><span style="font-style: italic;">Autophagy</span>, 2020 
+                        <br>   
+                        
+                        <br><a href="https://www.pnas.org/doi/abs/10.1073/pnas.1817078116">PP2C phosphatases promote autophagy by dephosphorylation of the Atg1 complex</a>
+                        <br> Gonen Memisoglu, Vinay V. Eapen, <span style="font-weight: bold";>Ying Yang</span>, Daniel J. Klionsky, James E. Haber
+                        <br><span style="font-style: italic;">Proceedings of the National Academy of Sciences <span style="font-weight: bold";>(PNAS)</span></span>, 2019 
+                        <br> 
+                        
+                        <br><a href="https://cellandbioscience.biomedcentral.com/articles/10.1186/s13578-016-0108-4">Disruption of the Golgi protein Otg1 gene causes defective hormone secretion and aberrant glucose homeostasis in mice</a>
+                        <br> Guangxue Wang*, Rongbo Li*, <span style="font-weight: bold";>Ying Yang</span>*, Liang Cai, Sheng Ding, Tian Xu, Min Han, Xiaohui Wu (*equal contribution)
+                        <br><span style="font-style: italic;">Cell & Bioscience</span>, 2016
+                        <br>   
+                        
+                    
+                            </div></div></div>    
+                
+                
+            </div>
+        </div>
+ 
+  
+                
+    
+        <div class="row" style="margin-top: 3em;" id = "themes">
+            <div class="col-sm-12" style="">
+                <h4><span style="font-weight: bold;">Seletced Research Themes</h4>
+                </br>
+
+                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/projects/VMA21.jpg" class="img-fluid img-thumbnail" alt="Project image"></div>
+                    <div class="col-sm-9"> <span style="font-weight: bold;"> Mutations in V-ATPase in follicular lymphoma activate autophagic flux </span>
+                    <br>
+                    <br><button class="btn btn-dark btn-sm" type="button" data-toggle="collapse" data-target="#vma21" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Click to learn more</button>
+                        <div class="collapse" id="vma21"><div class="card card-body">
+                        <ul>
+                            <li>We identified mutations in ATP6AP1, ATP6V1B2 and VMA21 in a combined 30% of follicular lymphoma (FL), together constituting a major novel mutated pathway in this disease. </li>
+                            <li>We characterized the molecular pathologies underlying the FL mutations.</li>
+                            <li>We proposed a novel therapeutic opportunity for FL patients by targeting autophagy alone or in combination with other targeted therapies.</li>
+                            <li>The image shows the Pathobiology of VMA21 p.93X mutations.</li>
+                        </ul>
+
+                        </pre></code></div></div>
+                </div> </div> </div>
+        
+         <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/projects/uORF.jpg" class="img-fluid img-thumbnail" alt="Project image"></div>
+                    <div class="col-sm-9"> <span style="font-weight: bold;">Translational regulation of autophagy  </span>
+                    <br>
+                    <br><button class="btn btn-dark btn-sm" type="button" data-toggle="collapse" data-target="#uORF" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Click to learn more</button>
+                        <div class="collapse" id="uORF"><div class="card card-body">
+                        <ul>
+                            <li>We identified the upstream open reading frame (uORF)-mediated translational control of multiple Atg proteins in Saccharomyces cerevisiae and in human cells. </li>
+                            <li>We found translational event of autophagy-related genes mediated by the uORF is dependent on the surrounding contexts of the uORF start codon, and on the Gcn2 kinase</li>
+                            <li>We delineated a series of genes encoding the core autophagy machinery with active uORFs in human cells. </li>
+                            <li>The image shows the set of core autophagy machinery with uORFs as translational control elements.</li>
+                        </ul>
+
+                        </pre></code></div></div>
+                </div> </div> </div>
+
+            <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/projects/SGD.png" class="img-fluid img-thumbnail" alt="Project image"></div>
+                    <div class="col-sm-9"> <span style="font-weight: bold;">  Scheduling hyperparameters to improve generalization </span>
+                    <br>
+                    <br><button class="btn btn-dark btn-sm" type="button" data-toggle="collapse" data-target="#sgd" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Click to learn more</button>
+                        <div class="collapse" id="sgd"><div class="card card-body">
+                        <ul>
+                            <li>We showed theoretically how hyperparameter configurations in Stochastic Gradient Descent Momentum connect to the generalization of optimizers.</li>
+                            <li>We optimized the hyperparameters in a principled fashion.</li>
+                            <li>We improved over existing auto-tuners on image classification tasks</li>
+                            <li>The image shows the testing curves and accuracy with various learning rate schedulers and optimizers.</li>
+                        </ul>
+
+                        </pre></code></div></div>
+                </div> </div> </div>
+
+<div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/projects/LRRC8.jpg" class="img-fluid img-thumbnail" alt="Project image"></div>
+                    <div class="col-sm-9"> <span style="font-weight: bold;">Lyso-VRAC–mediated lysosome osmoregulation promotes cell survival</span>
+                    <br>
+                    <br><button class="btn btn-dark btn-sm" type="button" data-toggle="collapse" data-target="#lyso" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Click to learn more</button>
+                        <div class="collapse" id="lyso"><div class="card card-body">
+                        <ul>
+                            <li>We showed that intracellular LRRC8 proteins acting within lysosomes play an esssential role in cellular osmoregulation. </li>
+                            <li>We found Lyso-VRACs allow lysosomes of mammalian cells to act as the cell's bladder.</li>
+                            <li>We identified that Lyso-VRACs is essential in enabling cells tomount successful homeostatic responses to multiple stressors.</li>
+                            <li>The image shows the model for how Lyso-VRAC–mediated lysosome osmoregulation behavior is protective for cell survival.</li>
+                        </ul>
+
+                        </pre></code></div></div>
+                </div> </div> </div>
+                
+            </div>
+        </div>
+
+        
+<div class="row" style="margin-top: 3em; margin-bottom: 3em;" id = "services">
+    <div class="col-sm-12" style="">
+        <h4><span style="font-weight: bold;">Services</h4>
+        <div class="box">
+        <br>
+        <p style="font-weight: bold;color: black; text-align:center;font-size:20px">Peer Reviewer for Journals</p>
+        <img src="assets/img/sciences.png" alt="science" class="minicenter">
+        <br>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Aging</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Annals of Medicine</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Autophagy</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Autophagy Reports</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Cell & Bioscience</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Frontiers in Genetics</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">International Journal of Computational Biology & Drug Design</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Molecular & Cellular Biochemistry</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:14px">Pathology & Oncology Research</p>
+        </div>
+
+        <div class="box">
+        <br>
+        <p style="font-weight: bold;color: black; text-align:center;font-size:20px">Instructor / Mentor</p>
+        <br>
+        <img src="assets/img/notion-avatarYY.png" alt="notion avatar" class="center">
+        <br>
+        <p style="font-weight: bold; color: ##001F3F; text-align:center; font-size:16px">Graduate Student Instructor</p>
+        <p style="color: #9e9e9e; text-align:center;font-size:14px">BIO172 - Introductory Biology</p>
+        <p style="color: #9e9e9e; text-align:center; font-size:14px">Instructed 270+ undergraduate students</p>
+        <p style="font-weight: bold; color: #001F3F; text-align:center;font-size:16px">Graduate Research Mentor</p>
+        <p style="color: #9e9e9e; text-align:center;font-size:14px">Instructed two rotation graduate student in the Klionsky lab</p>
+        </div>
+    </div> 
+            
+        <div class="row" style="margin-top: 3em; margin-bottom: 3em;" id = "funfacts">
+            <div class="col-sm-12" style="">
+                <h4><span style="font-weight: bold;">Fun Facts</h4>
+                <ul>
+                    <li>The first "surprise" image on my website is my favorite photo for my first cat - Ginger Ale. He gets this name because of his fur color. </li>
+                    <li>The second "surprise" image on my website is my second furry friend, Fluffy. It is obvious why he gets this name. Every time we visit the vet, he always gets the praise that "HE IS FLUFFY".</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 3em; margin-bottom:3em;">
+            <div class="col-sm-12" style="">
+                <h4><span style="font-weight: bold;">Visitor Counter</h4>
+                <div class="counter">
+                    Thank you for visiting my homepage &#128008. 
+                    <br>Total number of visitors: <a href="https://www.hitwebcounter.com" target="_blank">
+                    <a href="https://www.hitwebcounter.com" target="_blank">
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=8340479&style=0024&nbdigits=6&type=page&initCount=45" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
+                </div>
+            </div>
+        </div>   
+    </div>
+
+<footer> <small>Thanks for the website template from <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a> and <a href="https://github.com/zhaoyingpan/zhaoyingpan.github.io" target="_blank">Zhaoying Pan</a>. Created on 03/01/2023. Last updated on 03/01/2023.<br></small></footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
